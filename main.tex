@@ -1,0 +1,92 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+
+\title{stepik16_zad1}
+\author{Amelia Hajkowska}
+\date{29-01-2024}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Oto streszczenie pracy, które zawiera krótkie podsumowanie różnych tematów omówionych w dokumencie.
+\end{abstract}
+
+\tableofcontents
+\listoffigures
+\listoftables
+\newpage
+
+\section{Wstęp}
+\subsection{Cel pracy}
+Tekst wstępu do pracy. 
+\subsection{Zobacz więcej}
+Aby zobaczyć \textbf{więcej}, przejdź na następne strony.
+\newpage
+
+\section{Rozwój tematu}
+\subsection{Podsekcja 1}
+Tekst dotyczący pierwszego aspektu tematu. \textbf{Pogrubienie} tekstu.
+
+\subsection{Podsekcja 2}
+Tekst dotyczący drugiego aspektu tematu z zastosowaniem \underline{podkreślenia} i \textit{kursywy}.
+
+\subsection{Podsekcja 3}
+Przykład zastosowania trybu matematycznego w LaTeX:
+\begin{equation}
+    E = mc^2
+\end{equation}
+\begin{equation}
+    a^2 + b^2 = c^2
+\end{equation}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{gory1.jpg}
+\caption{Przykładowy rysunek 1}
+\label{fig:rys1}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.5\textwidth]{gory2.jpg}
+\caption{Przykładowy rysunek 2}
+\label{fig:rys2}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Kolumna 1 & Kolumna 2 & Kolumna 3 \\
+\hline
+Wartość 1 & Wartość 2 & Wartość 3 \\
+Wartość A & Wartość B & Wartość C \\
+\hline
+\end{tabular}
+\caption{Przykładowa tabela}
+\label{tab:tabela1}
+\end{table}
+\newpage
+
+\section{Podsumowanie}
+W podsumowaniu odnoszę się do Rysunku \ref{fig:rys1} i Tabeli \ref{tab:tabela1}. I to tyle.
+
+\begin{thebibliography}{9}
+\bibitem{latexcompanion} 
+Jan Kowalski, Anna Nowak. 
+\textit{The \LaTeX\ Companion}. 
+Warszawa, 1995.
+ 
+\bibitem{einstein} 
+Albert Einstein. 
+\textit{Zur Elektrodynamik bewegter Körper}. (German) 
+[\textit{On the Electrodynamics of Moving Bodies}]. 
+Annalen der Physik, 322(10):891–921, 1905.
+\end{thebibliography}
+
+\end{document}
